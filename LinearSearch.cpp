@@ -1,4 +1,4 @@
-/LINEAR SEARCH
+//LINEAR SEARCH
 #include <iostream>
 
 using namespace std;
