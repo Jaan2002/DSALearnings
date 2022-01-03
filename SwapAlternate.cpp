@@ -9,9 +9,16 @@ void printArray(int arr[],int n){
     }
 }
 void swapAlternate(int arr[],int n){
+    //int temp;
     for(int i=0;i<n;i+=2){
         if(i+1<n){
-            swap(arr[i],arr[i+1]);
+            swap(arr[i],arr[i+1]);//inbuild swap function
+            
+            /*if inbuild swap function is not working then swap manually like this
+            temp=arr[i];
+            arr[i]=arr[i+1];
+            arr[i+1]=temp;
+            */
         }
         
     }
